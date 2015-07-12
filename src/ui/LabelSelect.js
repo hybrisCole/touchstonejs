@@ -29,6 +29,7 @@ module.exports = React.createClass({
 	},
 
 	updateInputValue (event) {
+		console.log(event);
 		this.setState({
 			value: event.target.value
 		});
